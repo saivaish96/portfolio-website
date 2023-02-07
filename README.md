@@ -6,4 +6,4 @@ You can view this website live here: http://svaishnavi.com/
 ![Screen Shot 2023-02-07 at 2 30 44 PM](https://user-images.githubusercontent.com/13002463/217346389-4659308d-2851-4b4f-8400-308ff00e2233.png)
 
 
-![Screen Shot 2023-02-07 at 2 31 51 PM](https://user-images.githubusercontent.com/13002463/217346615-95e12e96-7219-4c45-954b-545a26e5b58a.png)
+![Screen Shot 2023-02-07 at 2 32 36 PM](https://user-images.githubusercontent.com/13002463/217346753-1ebe6648-93f6-40f5-8012-49f5cc009011.png)
