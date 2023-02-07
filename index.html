@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#" lang="en">
+
+<head>
+  <title>Sai Vaishnavi Portfolio | Projects</title>
+  <meta property="og:image" content="images/logo.png" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" type="image/x-icon" href="images/logo.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.5.6/css/ionicons.min.css">
+
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/flaticon.css">
+  <!-- <link rel="stylesheet" href="css/tiny-slider.css"> -->
+  <link rel="stylesheet" href="css/glightbox.min.css">
+  <link rel="stylesheet" href="css/aos.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg fixed-top ftco-navbar-light">
+    <div class="container-xl">
+      <a class="navbar-brand align-items-center" href="index.html">
+        <img src="images/logo.png" class="logoLight" alt="" width="65px" height="50px">
+        SV.
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="fa fa-bars"></span> Menu
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About me</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <li class="nav-item"> <a class='nav-link' href="SaiVaishnavi_Swaminathan_Resume.pdf" target="__blank">
+              Download Resume
+            </a></li>
+          <li class="nav-item"><a class="nav-link" href="art.html">Passion projects</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero-wrap">
+    <div class="overlay"></div>
+    <div class="row no-gutters slider-text align-items-center justify-content-end" style="height: 100px;">
+      <div class="col-lg-11">
+        <div class="text rellaxHero" data-rellax-speed="-3">
+          <!-- <span class="subheading">A Personal Blog</span> -->
+          <h1 class="mb-6">My designs are more than just <span>#fff</span> and <span>#000</span> </h1>
+          <div class="row">
+            <div class="col-lg-8">
+              <h2>Scroll down and check out my <span style="color: #ff6961;">colorful</span> creations<br></h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <!-- <a href="#work">
+      <div id="scroll-down-animation" style="margin-top: 280px;">
+        <span class="mouse">
+          <span class="move"></span>
+        </span>
+        <h5 style="color: #444444;">Scroll down</h5>
+      </div>
+    </a> -->
+    <canvas id="canvas"></canvas>
+
+
+  </section>
+
+
+
+  <!-- <section class="ftco-section bg-light ftco-no-pt" id="work">
+    <div class="container-xl">
+      <div class="row">
+        <div class="col-md-12 blog-entry d-flex align-items-stretch">
+          <div class="row g-0">
+            <div class="col-md-7">
+              <div class="img rellax" data-rellax-speed="-5" data-rellax-min="-120" data-rellax-max="0"
+                style="background-image: url(images/work1.jpeg);"></div>
+            </div>
+            <div class="col-md-5">
+              <div class="text py-5 ps-md-5 my-lg-5">
+                <p class="meta"><span><i class="fa fa-graduation-cap me-1"></i>School Project</span></p>
+                <h2 class="mb-4"><a href="think-salt.html">Think Salt</a></h2>
+                <p class="mb-4">Think salt is a small-scale application that aims to help people who have trouble
+                  controlling their sodium intake. This app allows patients with cholesterol and high BP by providing
+                  information about what kind of food they can consume and how much sodium they can take per day.</p>
+                <p><a href="think-salt.html" class="btn-custom">Open Case Study <span
+                      class="ion ion-ios-arrow-round-forward ms-2"></span></a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-12 blog-entry d-flex align-items-stretch">
+          <div class="row g-0">
+            <div class="col-md-7 order-md-last">
+              <div class="img rellax" data-rellax-speed="-5" data-rellax-min="-120" data-rellax-max="0"
+                style="background-image: url(images/work2.jpeg);background-position: left;"></div>
+            </div>
+            <div class="col-md-5">
+              <div class="text py-5 pe-md-5 my-lg-5">
+                <p class="meta"><span><i class="fa fa-user me-1"></i>Personal project</span></p>
+                <h2 class="mb-4"><a href="xplain.html">Xplain</a></h2>
+                <p class="mb-4">Now many software, apps and products require user to ready a long document detailing
+                  ‘terms and
+                  conditions’.
+                  Many users simply skip this part and go ahead to sign the agreement. Sometimes, there are
+                  suspicious/unfair terms added which the user doesn’t necessarily agree on. Xplain app scans the
+                  terms
+                  and conditions which will alert and protect the user of any dubious terms and conditions.</p>
+                <p><a href="xplain.html" class="btn-custom">Open Case Study <span
+                      class="ion ion-ios-arrow-round-forward ms-2"></span></a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 blog-entry d-flex align-items-stretch">
+          <div class="row g-0">
+            <div class="col-md-7">
+              <div class="img rellax" data-rellax-speed="-5" data-rellax-min="-120" data-rellax-max="0"
+                style="background-image: url(images/recyclart-1.jpeg);"></div>
+            </div>
+            <div class="col-md-5">
+              <div class="text py-5 ps-md-5 my-lg-5">
+                <p class="meta"><span><i class="fa fa-graduation-cap me-1"></i>School Project</span></p>
+                <h2 class="mb-4"><a href="recyclart.html">Recycl Passion projects</a></h2>
+                <p class="mb-4">An app that specifically sells oil drum furniture. This app showcases different kinds of oil drum furniture by creators. This app is a one-stop shop for creators to sell their iconic designs. This sustainably built furniture embraces the local reuse culture and attracts buyers.</p>
+                <p><a href="think-salt.html" class="btn-custom">Open Case Study <span
+                      class="ion ion-ios-arrow-round-forward ms-2"></span></a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 blog-entry d-flex align-items-stretch">
+          <div class="row g-0">
+            <div class="col-md-7">
+              <div class="img rellax" data-rellax-speed="-5" data-rellax-min="-120" data-rellax-max="0"
+                style="background-image: url(images/work8.jpeg);"></div>
+            </div>
+            <div class="col-md-5">
+              <div class="text py-5 ps-md-5 my-lg-5">
+                <p class="meta"><span><span><i class="fa fa-graduation-cap me-1"></i>School Project</span></p>
+                <h2 class="mb-4"><a href="AllRecipes.html">Accessibility Testing of AllRecipes</a></h2>
+                <p class="mb-4">AllRecipes is a recipe sharing and cooking community website. The community users post
+                  the recipes on this website, and it is copyedited by the staff to maintain the website's authenticity.
+                  I selected a specific recipe page from the AllRecipes website for my accessibility evaluation.</p>
+                <p><a href="AllRecipes.html" class="btn-custom">Open Case Study <span
+                      class="ion ion-ios-arrow-round-forward ms-2"></span></a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 blog-entry d-flex align-items-stretch">
+          <div class="row g-0">
+            <div class="col-md-7 order-md-last">
+              <div class="img rellax" data-rellax-speed="-5" data-rellax-min="-120" data-rellax-max="0"
+                style="background-image: url(images/work6.jpeg);"></div>
+            </div>
+            <div class="col-md-5">
+              <div class="text py-5 pe-md-5 my-lg-5">
+                <p class="meta"><span><i class="fa fa-graduation-cap me-1"></i>School Project</span></p>
+                <h2 class="mb-4"><a href="Yelp-usability-evaluation.html">Yelp Usability
+                    Evaluation</a></h2>
+                <p class="mb-4">Yelp is a crowdsourced local reviews app - users can review and judge other businesses
+                  using existing users' reviews. Furthermore, users can also find events and also use the
+                  interface to talk to other 'Yelpers'. This study aims to identify the pain points in Yelp's business
+                  discovery user flows on a
+                  desktop web browser, specifically focusing more on the search and filter feature.</p>
+                <p><a href="Yelp-usability-evaluation.html" class="btn-custom">Open case
+                    Study <span class="ion ion-ios-arrow-round-forward ms-2"></span></a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 blog-entry d-flex align-items-stretch">
+          <div class="row g-0">
+            <div class="col-md-7">
+              <div class="img rellax" data-rellax-speed="-5" data-rellax-min="-120" data-rellax-max="0"
+                style="background-image: url(assets/img/sma/sma-3.jpeg);"></div>
+            </div>
+            <div class="col-md-5">
+              <div class="text py-5 ps-md-5 my-lg-5">
+                <p class="meta"><span><i class="fa fa-briefcase me-1"></i>Work project</span> </p>
+                <h2 class="mb-4"><a href="sma.html">Smart Modular Actuator</a></h2>
+                <p class="mb-4">An actuator is a part of a device or machine that enables
+                  movement. Traditionally, the Johnson Controls actuators were configured manually. An engineer had to
+                  install the actuator in a building and then configure it each time by climbing up the ladder. This
+                  process had to be repeated for thousands of actuators in a building. With the advent of Wifi-capable
+                  actuators, the entire process is now possible with a single touch on a smartphone. SMA app
+                  establishes connections with multiple Wi-Fi-capable smart actuators and configures them in a single
+                  shot. </p>
+                <p><a href="sma.html" class="btn-custom">Open Case Study <span
+                      class="ion ion-ios-arrow-round-forward ms-2"></span></a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-12 blog-entry d-flex align-items-stretch">
+          <div class="row g-0">
+            <div class="col-md-7 order-md-last">
+              <div class="img rellax" data-rellax-speed="-5" data-rellax-min="-120" data-rellax-max="0"
+                style="background-image: url(images/work3.jpeg);"></div>
+            </div>
+            <div class="col-md-5">
+              <div class="text py-5 pe-md-5 my-lg-5">
+                <p class="meta"><span><i class="fa fa-graduation-cap me-1"></i>Work Project</span></p>
+                <h2 class="mb-4"><a href="swarovski-lighting.html" target="__blank">Swarovski Lighting</a></h2>
+                <p class="mb-4">This app allows users to select from 'Auras' settings and pre-set 'Effects' and mood
+                  settings to create their unique lighting environment.
+                  Users can adjust their lighting environment at the tap of a button to suit every ambiance and time of
+                  day. Additionally, users can effortlessly change the light temperature from cooler white light to
+                  warmer yellow light.</p>
+                <p><a href="swarovski-lighting.html" target="__blank" class="btn-custom">Open Case
+                    Study <span class="ion ion-ios-arrow-round-forward ms-2"></span></a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+      </div>
+    </div>
+  </section> -->
+
+  <!-- <section class="ftco-intro py-5 bg-primary">
+    <div class="container">
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-10">
+          <div class="row justify-content-center">
+            <div class="col-md-8 text-center mb-lg-4">
+              <h2 class="mb-0">Newsletter - Stay tune and get the latest update</h2>
+              <p>Far far away, behind the word mountains</p>
+            </div>
+            <div class="col-md-5 border-left d-flex align-items-center">
+              <form action="#" class="subscribe-form">
+                <div class="form-group d-flex align-items-center">
+                  <input type="text" class="form-control" placeholder="Enter email address">
+                  <a href="#" class="btn btn-darken">Subscribe</a>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+  <!-- Blog Section -->
+  <section id="blog" class="section-padding">
+    <!-- Container Starts -->
+    <div class="container">
+      <div class="section-title">
+        <h2>Projects</h2>
+      </div>
+      <!-- <div class="row">
+        <div class="col-lg-12 d-flex justify-content-center">
+          <ul id="home-flters">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-research">UX Research</li>
+            <li data-filter=".filter-design">Product Design</li>
+            <li data-filter=".filter-development">UI Development</li>
+          </ul>
+        </div>
+      </div> -->
+    
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 blog-item filter-design">
+          <!-- Blog Item Starts -->
+          <div class="blog-item-wrapper wow fadeInLeft" data-wow-delay="0.3s">
+
+            <div class="blog-item-img">
+              <a href="think-salt.html">
+                <img src="images/work1.jpeg" style="height: 10%;" alt="">
+              </a>
+            </div>
+            <div class="blog-item-text">
+              <p class="meta"><span><i class="fa fa-graduation-cap me-1"></i>UI Design | School project (Interaction
+                  Design Studio)</span></p>
+
+              <h4>
+                <a href="think-salt.html">Think Salt</a>
+              </h4>
+              <p>
+                Think salt that aims to help people who have trouble
+                controlling their sodium intake. This app helps high BP patients with
+                information about what kind of food they can consume and how much sodium they can take per day.</p>
+
+              <!-- <a href="think-salt.html" target="__blank" class="btn-custom">Open Case
+                  Study <span class="ion ion-ios-arrow-round-forward ms-2"></span></a> -->
+            </div>
+          </div>
+          <!-- Blog Item Wrapper Ends-->
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 blog-item filter-development">
+
+          <div class="blog-item-wrapper wow fadeInLeft" data-wow-delay="0.3s">
+            <div class="blog-item-img">
+              <a href="computational-thinking.html">
+                <img src="assets/img/computationalthinking/flyer.png" alt="">
+              </a>
+            </div>
+            <div class="blog-item-text">
+              <p class="meta"><span><i class="fa fa-graduation-cap me-1"></i>UX Research, UI Design |
+                  School project
+                  (Design Thinking with Youth)</span></p>
+
+              <h4>
+                <a href="computational-thinking.html">Computational Thinking begins at an early age</a>
+              </h4>
+              <p>
+                An actuator is a part of a device or machine that enables movement. Traditionally, the Johnson
+                Controls
+                actuators were configured manually. With the advent of Wifi-capable actuators, the entire process is
+                now
+                possible
+                with the android app establishes connections with multiple
+                actuators and configures them in a single shot.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 blog-item filter-development">
+          <!-- Blog Item Starts -->
+
+          <div id="sma" class="blog-item-wrapper wow fadeInLeft" data-wow-delay="0.3s">
+            <div class="blog-item-img">
+              <a href="sma.html">
+                <img src="assets/img/sma/22.png" alt="">
+              </a>
+            </div>
+            <div class="blog-item-text">
+              <p class="meta"><span><i class="fa fa-briefcase me-1"></i>UX Research, UI Design and App Development |
+                  Work project
+                  (Johnson Controls)</span></p>
+
+              <h4>
+                <a href="sma.html">Smart Modular Actuator</a>
+              </h4>
+              <p>
+                An actuator is a part of a device or machine that enables movement. Traditionally, the Johnson
+                Controls
+                actuators were configured manually. With the advent of Wifi-capable actuators, the entire process is
+                now
+                possible
+                with the android app establishes connections with multiple
+                actuators and configures them in a single shot.</p>
+              <!-- <a href="think-salt.html" target="__blank" class="btn-custom">Open Case
+                  Study <span class="ion ion-ios-arrow-round-forward ms-2"></span></a> -->
+            </div>
+          </div>
+          <!-- Blog Item Wrapper Ends-->
+        </div>
+
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 blog-item filter-research">
+          <!-- Blog Item Starts -->
+          <div class="blog-item-wrapper wow fadeInLeft" data-wow-delay="0.3s">
+            <div class="blog-item-img">
+              <a href="redesigning-yelp.html">
+                <img src="images/work6.jpeg" alt="">
+              </a>
+            </div>
+            <div class="blog-item-text">
+              <p class="meta"><span><i class="fa fa-graduation-cap me-1"></i>UX Research & UX Design | School project
+                  (Advanced Usability testing)</span></p>
+
+              <h4>
+                <a href="redesigning-yelp.html">Redesigning Yelp</a>
+              </h4>
+              <p>
+                This study aims to identify the pain points in Yelp's business discovery user flows on a desktop web
+                browser, specifically focusing more on the search and filter feature.</p>
+              <!-- <a href="think-salt.html" target="__blank" class="btn-custom">Open Case
+                  Study <span class="ion ion-ios-arrow-round-forward ms-2"></span></a> -->
+            </div>
+          </div>
+          <!-- Blog Item Wrapper Ends-->
+        </div>
+       
+      
+
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 blog-item filter-design">
+          <!-- Blog Item Starts -->
+          <div class="blog-item-wrapper wow fadeInLeft" data-wow-delay="0.3s">
+
+            <div class="blog-item-img">
+              <a href="think-salt.html">
+                <img src="assets/img/MOICe/3.png" style="height: 10%;" alt="">
+              </a>
+            </div>
+            <div class="blog-item-text">
+              <p class="meta"><span><i class="fa fa-graduation-cap me-1"></i>Visual Design | School project (Visual
+                  Design Studio)</span></p>
+
+              <h4>
+                <a href="museum-of-icecream.html">Rebranding Museum of Ice cream</a>
+              </h4>
+              <p>
+                Museum of Ice cream is an immersive exhibition whose mission is to bring out the kids in adults, provoke their imagination, and make their
+                sweetest dreams come true. The museum is available in 3 locations in the US. For my project, I started with the assumption that the brand is opening a new location in
+                Maryland. And the theme that I chose for this location is a retro ice cream shop.
+
+              </p>
+
+              <!-- <a href="think-salt.html" target="__blank" class="btn-custom">Open Case
+                Study <span class="ion ion-ios-arrow-round-forward ms-2"></span></a> -->
+            </div>
+          </div>
+          <!-- Blog Item Wrapper Ends-->
+        </div>
+      </div>
+    </div>
+    <!-- </div> -->
+
+  </section>
+
+  <!-- blog Section End -->
+  <footer class="ftco-footer" style="width: 100vw;height: vh; margin-top: 100px;">
+    <div class="footer">
+      <div class="bubbles">
+        <div class="bubble"
+          style="--size:4.5772250586676275rem; --distance:6.902308099645899rem; --position:96.87554458094179%; --time:2.8381900190191733s; --delay:-2.0214515969891185s;">
+        </div>
+        <div class="bubble"
+          style="--size:3.231950356037963rem; --distance:9.105618735113024rem; --position:78.19913764966255%; --time:3.3418628393004517s; --delay:-3.903504991687809s;">
+        </div>
+        <div class="bubble"
+          style="--size:3.560371033331366rem; --distance:6.176387599106997rem; --position:-0.8645151021068216%; --time:3.372780246083348s; --delay:-2.357372413937493s;">
+        </div>
+        <div class="bubble"
+          style="--size:3.243035222436471rem; --distance:9.749330307871464rem; --position:31.270001515564125%; --time:3.7119656510109835s; --delay:-3.7551938145289565s;">
+        </div>
+        <div class="bubble"
+          style="--size:3.6635777092566073rem; --distance:8.082087545790928rem; --position:76.31214800387808%; --time:3.4541951440030183s; --delay:-2.2504969006953144s;">
+        </div>
+        <div class="bubble"
+          style="--size:4.5963555501776945rem; --distance:7.652595490207342rem; --position:16.94990023416285%; --time:3.220379537801119s; --delay:-3.5683794989045485s;">
+        </div>
+        <div class="bubble"
+          style="--size:5.586928698044017rem; --distance:7.296650647511846rem; --position:72.49561207058579%; --time:3.2001088850500063s; --delay:-3.055536667687497s;">
+        </div>
+        <div class="bubble"
+          style="--size:3.650427563395514rem; --distance:6.40082834495175rem; --position:42.154139610925185%; --time:3.3468036283685825s; --delay:-3.435829034136157s;">
+        </div>
+        <div class="bubble"
+          style="--size:4.8954766446423115rem; --distance:6.173514853439735rem; --position:15.490534052934692%; --time:2.6930171214113385s; --delay:-3.4740716924041206s;">
+        </div>
+        <div class="bubble"
+          style="--size:5.333790394055801rem; --distance:8.4554395467816rem; --position:90.28593830269728%; --time:3.6810053808704546s; --delay:-2.749764283256097s;">
+        </div>
+        <div class="bubble"
+          style="--size:3.1059311890621295rem; --distance:6.784284195036432rem; --position:76.35376174936665%; --time:2.4190890144102917s; --delay:-2.969598759817607s;">
+        </div>
+        <div class="bubble"
+          style="--size:2.707262704124007rem; --distance:6.575990895778131rem; --position:62.52334998955203%; --time:3.422625079637996s; --delay:-3.885356391252418s;">
+        </div>
+        <div class="bubble"
+          style="--size:4.648380723236127rem; --distance:8.428686505678337rem; --position:50.7141706020983%; --time:3.92017191688343s; --delay:-2.7672345248169643s;">
+        </div>
+        <div class="bubble"
+          style="--size:5.103175791727421rem; --distance:6.103340927887136rem; --position:18.692371391511127%; --time:3.441750177375147s; --delay:-2.3296207539732774s;">
+        </div>
+        <div class="bubble"
+          style="--size:3.638066281419838rem; --distance:6.093727244242966rem; --position:67.99111540720064%; --time:2.900900572020028s; --delay:-3.74601221638766s;">
+        </div>
+        <div class="bubble"
+          style="--size:3.3243999349597395rem; --distance:7.794815051150003rem; --position:75.25421946031882%; --time:2.805096074084669s; --delay:-2.134998988871885s;">
+        </div>
+        <div class="bubble"
+          style="--size:3.091041661052188rem; --distance:7.635713212626167rem; --position:32.601609569657136%; --time:2.1230173563337105s; --delay:-2.462939831882555s;">
+        </div>
+        <div class="bubble"
+          style="--size:5.167046066944271rem; --distance:8.714212589465582rem; --position:3.524453663735869%; --time:2.593236913484113s; --delay:-3.925985499048754s;">
+        </div>
+        <div class="bubble"
+          style="--size:2.9453704392741207rem; --distance:8.843817465059988rem; --position:99.93127279821894%; --time:2.2565430131634496s; --delay:-2.8716742353905884s;">
+        </div>
+        <div class="bubble"
+          style="--size:2.8974883373973306rem; --distance:7.2090416467084655rem; --position:-4.886199237844428%; --time:2.2373858273556793s; --delay:-2.952276088083715s;">
+        </div>
+        <div class="bubble"
+          style="--size:3.6749520538496556rem; --distance:8.438183573754905rem; --position:102.69175479939796%; --time:2.5478399104479785s; --delay:-3.2331543279835033s;">
+        </div>
+        <div class="bubble"
+          style="--size:5.567008136874839rem; --distance:8.642703445074783rem; --position:38.07011577656011%; --time:3.482609377097724s; --delay:-3.5297708755447887s;">
+        </div>
+        <div class="bubble"
+          style="--size:5.393544508422754rem; --distance:8.593522904645148rem; --position:90.40306448537144%; --time:2.248827073848634s; --delay:-3.6518235380660435s;">
+        </div>
+        <div class="bubble"
+          style="--size:4.950169295949774rem; --distance:6.197696870238416rem; --position:27.974201278682855%; --time:2.387605534427447s; --delay:-3.1929619066164077s;">
+        </div>
+        <div class="bubble"
+          style="--size:2.0638383277277725rem; --distance:6.26469352160279rem; --position:88.88069734248747%; --time:2.466204390978022s; --delay:-2.185636511139413s;">
+        </div>
+        <div class="bubble"
+          style="--size:5.652876268423531rem; --distance:8.661063828076065rem; --position:100.45789103733681%; --time:2.761838216084415s; --delay:-2.05806555180228s;">
+        </div>
+        <div class="bubble"
+          style="--size:3.6006417285935424rem; --distance:9.859492581567071rem; --position:97.56122528252635%; --time:3.4257325379279906s; --delay:-2.133427688715521s;">
+        </div>
+        <div class="bubble"
+          style="--size:2.871605665673978rem; --distance:7.172706808559952rem; --position:24.249253800481203%; --time:2.400143917796886s; --delay:-3.4470393193092836s;">
+        </div>
+        <div class="bubble"
+          style="--size:4.5243879174861545rem; --distance:8.792577583449113rem; --position:57.56552531128595%; --time:3.046387112535323s; --delay:-2.032285705480241s;">
+        </div>
+        <div class="bubble"
+          style="--size:4.8619423936735275rem; --distance:6.5501096551253895rem; --position:5.242089822990799%; --time:3.7862801107339115s; --delay:-2.8206528671780697s;">
+        </div>
+        <div class="bubble"
+          style="--size:2.4802234528199696rem; --distance:6.838631276250603rem; --position:61.12412654094085%; --time:3.0370316886785202s; --delay:-3.4232629942254804s;">
+        </div>
+        <div class="bubble"
+          style="--size:3.132194747958879rem; --distance:6.658570685415759rem; --position:7.13718346634078%; --time:3.9438361663728436s; --delay:-3.5706747006449784s;">
+        </div>
+        <div class="bubble"
+          style="--size:5.103856547515902rem; --distance:9.215929393653079rem; --position:61.09477794331043%; --time:2.579745797640253s; --delay:-2.639583470513514s;">
+        </div>
+        <div class="bubble"
+          style="--size:2.5879875389607783rem; --distance:9.731838514402696rem; --position:93.63743784249722%; --time:3.989899625932922s; --delay:-2.318419743309568s;">
+        </div>
+        <div class="bubble"
+          style="--size:2.3484662775432303rem; --distance:6.436059544596188rem; --position:86.68915786117972%; --time:2.942881515463993s; --delay:-2.461709162962322s;">
+        </div>
+        <div class="bubble"
+          style="--size:2.434367821359534rem; --distance:6.246581165251304rem; --position:98.9437232965945%; --time:3.348259764445204s; --delay:-3.3014972171635297s;">
+        </div>
+        <div class="bubble"
+          style="--size:3.1323467539398555rem; --distance:8.609306469688718rem; --position:65.98675757955384%; --time:3.7373263516157413s; --delay:-3.0076734979498845s;">
+        </div>
+        <div class="bubble"
+          style="--size:3.785331809609814rem; --distance:7.220909946791254rem; --position:52.52264020603724%; --time:2.9793619426429347s; --delay:-2.9083768248111617s;">
+        </div>
+        <div class="bubble"
+          style="--size:3.029299395144461rem; --distance:9.912725237308047rem; --position:4.889782915418685%; --time:3.11090454772182s; --delay:-2.9958991765158s;">
+        </div>
+        <div class="bubble"
+          style="--size:4.887776511915408rem; --distance:8.96123813497446rem; --position:32.85733820123879%; --time:2.4667305631009406s; --delay:-3.9989527729157412s;">
+        </div>
+        <div class="bubble"
+          style="--size:3.9913810399800687rem; --distance:9.13261856292924rem; --position:31.86278789509211%; --time:2.595849471117535s; --delay:-2.8502818246811663s;">
+        </div>
+        <div class="bubble"
+          style="--size:3.784579430971454rem; --distance:9.25742712355818rem; --position:73.15438511062297%; --time:3.3121492289352945s; --delay:-2.11967113360556s;">
+        </div>
+        <div class="bubble"
+          style="--size:4.589086080131038rem; --distance:9.11855718019665rem; --position:82.92114199096048%; --time:3.293594999817762s; --delay:-2.375144564597066s;">
+        </div>
+        <div class="bubble"
+          style="--size:2.273335227612737rem; --distance:9.293550945261554rem; --position:51.77684435345688%; --time:3.364515774196857s; --delay:-2.1491120398163783s;">
+        </div>
+        <div class="bubble"
+          style="--size:3.7126959862869446rem; --distance:6.543108158342028rem; --position:6.681057963975597%; --time:3.1702429467388487s; --delay:-3.4773281104736604s;">
+        </div>
+        <div class="bubble"
+          style="--size:3.6254116312282454rem; --distance:9.728208652735532rem; --position:35.79635298212609%; --time:2.985079003949188s; --delay:-2.2765729459934825s;">
+        </div>
+        <div class="bubble"
+          style="--size:3.1819043584824556rem; --distance:9.555012008695748rem; --position:47.32475759901743%; --time:3.6200681525419203s; --delay:-3.5822795592839403s;">
+        </div>
+        <div class="bubble"
+          style="--size:5.180025008185199rem; --distance:7.164786479482963rem; --position:43.00371677604096%; --time:2.813954425116596s; --delay:-2.8078301856255097s;">
+        </div>
+        <div class="bubble"
+          style="--size:2.1203928161253867rem; --distance:8.87247030254193rem; --position:69.85328710504515%; --time:2.65670092210527s; --delay:-3.0381666411127144s;">
+        </div>
+        <div class="bubble"
+          style="--size:5.713411922133681rem; --distance:7.580850624295238rem; --position:4.982361631532726%; --time:2.286129793647781s; --delay:-3.2393435659123364s;">
+        </div>
+        <div class="bubble"
+          style="--size:2.5408995610445677rem; --distance:9.295243946557509rem; --position:47.89534090634677%; --time:2.0202545331874897s; --delay:-3.057282923577325s;">
+        </div>
+        <div class="bubble"
+          style="--size:3.065956983719774rem; --distance:8.944543578984785rem; --position:84.68680353099214%; --time:2.4005115921950493s; --delay:-2.5564772232934034s;">
+        </div>
+        <div class="bubble"
+          style="--size:4.751605876511528rem; --distance:6.293535183953926rem; --position:102.83400867911209%; --time:2.16556882583931s; --delay:-2.378802269435952s;">
+        </div>
+        <div class="bubble"
+          style="--size:2.0570765266528106rem; --distance:7.31028813124001rem; --position:102.27006113312963%; --time:3.947949010094791s; --delay:-2.468031461451087s;">
+        </div>
+        <div class="bubble"
+          style="--size:4.153670451456863rem; --distance:7.864807496579042rem; --position:56.97727412716478%; --time:2.2591874061929684s; --delay:-2.547152034096715s;">
+        </div>
+        <div class="bubble"
+          style="--size:2.852679881662972rem; --distance:6.187463036534665rem; --position:38.88395181058665%; --time:2.138134356997203s; --delay:-2.2631893961194454s;">
+        </div>
+        <div class="bubble"
+          style="--size:5.471222367536357rem; --distance:8.239798755851165rem; --position:49.40979844864868%; --time:2.6073874796498604s; --delay:-3.1758846394877187s;">
+        </div>
+        <div class="bubble"
+          style="--size:3.478698979356082rem; --distance:8.85990071139971rem; --position:4.765660715136754%; --time:3.5097597544561423s; --delay:-2.2305592987954888s;">
+        </div>
+        <div class="bubble"
+          style="--size:4.412359846474303rem; --distance:8.674618327599903rem; --position:91.88221567346528%; --time:2.755732099466211s; --delay:-2.759413690274567s;">
+        </div>
+        <div class="bubble"
+          style="--size:4.316245834714106rem; --distance:6.267493672842178rem; --position:27.06205716908535%; --time:3.995090638157944s; --delay:-2.4785519917630707s;">
+        </div>
+        <div class="bubble"
+          style="--size:4.247168209053932rem; --distance:6.564065259949296rem; --position:65.74771721727393%; --time:2.0508059321404954s; --delay:-2.735998626869701s;">
+        </div>
+        <div class="bubble"
+          style="--size:5.0729139374984555rem; --distance:7.292864695436326rem; --position:98.20408987140696%; --time:3.8089912581345207s; --delay:-3.1315568754972762s;">
+        </div>
+        <div class="bubble"
+          style="--size:3.542889635815815rem; --distance:9.119878869067588rem; --position:39.44642705022376%; --time:2.0665156025188876s; --delay:-3.029042225579743s;">
+        </div>
+        <div class="bubble"
+          style="--size:2.69437201184975rem; --distance:9.812931231692112rem; --position:-0.7285010777296623%; --time:2.9772287615427744s; --delay:-3.9929529686502376s;">
+        </div>
+        <div class="bubble"
+          style="--size:2.7422314420557035rem; --distance:7.415806550571408rem; --position:101.2591369159155%; --time:2.7364916685723575s; --delay:-3.4577622596178843s;">
+        </div>
+        <div class="bubble"
+          style="--size:2.566293598945606rem; --distance:9.363900322261326rem; --position:49.10849228761325%; --time:3.6641570326380903s; --delay:-2.4368914654609255s;">
+        </div>
+        <div class="bubble"
+          style="--size:3.9647758590401025rem; --distance:8.91630694449159rem; --position:4.68021393636514%; --time:3.831936663363178s; --delay:-2.4763609767058896s;">
+        </div>
+        <div class="bubble"
+          style="--size:4.398017078615932rem; --distance:8.960721062469922rem; --position:85.19702859769463%; --time:3.0386116284817666s; --delay:-3.5176600435298115s;">
+        </div>
+        <div class="bubble"
+          style="--size:3.991196263322987rem; --distance:9.372011860615913rem; --position:42.57658423442252%; --time:2.8773390736703335s; --delay:-2.982453915482974s;">
+        </div>
+        <div class="bubble"
+          style="--size:3.416273279418167rem; --distance:8.079216306016136rem; --position:16.624316242160518%; --time:2.334897664954156s; --delay:-3.7443630171836606s;">
+        </div>
+        <div class="bubble"
+          style="--size:2.4639348539914634rem; --distance:9.10129786385804rem; --position:57.078032794667344%; --time:2.515196345697455s; --delay:-3.33703314761278s;">
+        </div>
+        <div class="bubble"
+          style="--size:5.606853984331494rem; --distance:6.960157127165211rem; --position:4.136049616735271%; --time:3.8386065395579987s; --delay:-2.808617496473205s;">
+        </div>
+        <div class="bubble"
+          style="--size:2.4441545321238856rem; --distance:7.7523527365079286rem; --position:79.86189993684461%; --time:2.651002144491742s; --delay:-2.0307134592622544s;">
+        </div>
+        <div class="bubble"
+          style="--size:4.604377728103524rem; --distance:7.229562722037417rem; --position:5.877657376399501%; --time:3.4435701213346603s; --delay:-2.7559527767191034s;">
+        </div>
+        <div class="bubble"
+          style="--size:3.540338386908024rem; --distance:6.882212270296909rem; --position:23.750629464698328%; --time:3.5507146687118105s; --delay:-2.729586804254957s;">
+        </div>
+        <div class="bubble"
+          style="--size:4.47676039788153rem; --distance:6.288776788126364rem; --position:10.820148260243876%; --time:2.197767779210692s; --delay:-2.075602818442059s;">
+        </div>
+        <div class="bubble"
+          style="--size:5.274418237482444rem; --distance:6.419893627772986rem; --position:55.54563174126178%; --time:3.631393757373997s; --delay:-3.2446587437224905s;">
+        </div>
+        <div class="bubble"
+          style="--size:5.697555845877057rem; --distance:9.596056740394769rem; --position:45.19059589795482%; --time:2.926139805817363s; --delay:-3.709537230981478s;">
+        </div>
+        <div class="bubble"
+          style="--size:3.3151821949433486rem; --distance:6.310416514319231rem; --position:38.804274156381936%; --time:2.9909966075386816s; --delay:-2.033371716201996s;">
+        </div>
+        <div class="bubble"
+          style="--size:3.897980697262181rem; --distance:6.3802787762488276rem; --position:51.72854405293529%; --time:3.4382784704590286s; --delay:-3.988377752362341s;">
+        </div>
+        <div class="bubble"
+          style="--size:5.423936660833064rem; --distance:8.32578978218411rem; --position:4.059135802964779%; --time:3.632866457852253s; --delay:-3.04268509278459s;">
+        </div>
+        <div class="bubble"
+          style="--size:4.685419558858136rem; --distance:7.491123888218478rem; --position:70.91356864697845%; --time:3.583813702219713s; --delay:-2.1240318919953873s;">
+        </div>
+        <div class="bubble"
+          style="--size:2.659826724563283rem; --distance:7.644439840487771rem; --position:51.46702917635997%; --time:3.8060612804036684s; --delay:-2.5094442716300844s;">
+        </div>
+        <div class="bubble"
+          style="--size:5.700099130788767rem; --distance:7.41603182136174rem; --position:92.78186761751374%; --time:3.976250475059507s; --delay:-3.640468551427122s;">
+        </div>
+        <div class="bubble"
+          style="--size:2.01125773362213rem; --distance:7.057392394043411rem; --position:45.761192186485275%; --time:3.4205602410737663s; --delay:-3.41317783955697s;">
+        </div>
+        <div class="bubble"
+          style="--size:5.657163581295166rem; --distance:9.766927570050402rem; --position:9.614164177767186%; --time:3.544805309428888s; --delay:-2.125742427680341s;">
+        </div>
+        <div class="bubble"
+          style="--size:4.208863900931238rem; --distance:6.885248493184536rem; --position:11.249506705184281%; --time:3.1042083652009462s; --delay:-2.6724817739602655s;">
+        </div>
+        <div class="bubble"
+          style="--size:2.21815769132413rem; --distance:8.54066418390523rem; --position:104.63593417421117%; --time:3.905236168196281s; --delay:-3.823665117452072s;">
+        </div>
+        <div class="bubble"
+          style="--size:4.372900272592486rem; --distance:9.786540770720043rem; --position:51.90709079519574%; --time:2.1779097028888708s; --delay:-3.9080215455607936s;">
+        </div>
+        <div class="bubble"
+          style="--size:4.297043058999511rem; --distance:9.870090277104756rem; --position:22.92302973113021%; --time:3.262421370017704s; --delay:-2.570663847382054s;">
+        </div>
+        <div class="bubble"
+          style="--size:4.189020344086025rem; --distance:9.907240984984732rem; --position:55.37932844840478%; --time:3.3423149262238403s; --delay:-2.304807663283978s;">
+        </div>
+        <div class="bubble"
+          style="--size:3.5375909483167334rem; --distance:9.24407984871642rem; --position:40.39545588203316%; --time:2.5631496740382183s; --delay:-3.5234052867686123s;">
+        </div>
+        <div class="bubble"
+          style="--size:3.094484234053958rem; --distance:9.387840919435533rem; --position:74.14529761434864%; --time:2.8623559610083573s; --delay:-3.2996114343740643s;">
+        </div>
+        <div class="bubble"
+          style="--size:4.222836625722842rem; --distance:9.879618555895885rem; --position:82.17894568148917%; --time:2.537641158769465s; --delay:-3.4575722707784413s;">
+        </div>
+        <div class="bubble"
+          style="--size:2.599835321562586rem; --distance:6.559521077647981rem; --position:48.95063658000052%; --time:3.5364109528338403s; --delay:-3.0356281377934393s;">
+        </div>
+        <div class="bubble"
+          style="--size:3.081515798474511rem; --distance:9.064314375901708rem; --position:19.661381148652875%; --time:2.740775260756671s; --delay:-3.938126474276043s;">
+        </div>
+        <div class="bubble"
+          style="--size:5.854142338846302rem; --distance:6.7547365407471744rem; --position:41.64470591834162%; --time:3.279266595362581s; --delay:-2.4973022794253974s;">
+        </div>
+        <div class="bubble"
+          style="--size:4.716409775905006rem; --distance:9.028776324652432rem; --position:78.53778659517887%; --time:3.507372322771084s; --delay:-2.055925136153173s;">
+        </div>
+        <div class="bubble"
+          style="--size:2.398819383926816rem; --distance:8.332433961159778rem; --position:71.52560555973879%; --time:3.6907927982610866s; --delay:-2.481901012236195s;">
+        </div>
+        <div class="bubble"
+          style="--size:5.186087217513997rem; --distance:6.076530908494021rem; --position:96.78245132418732%; --time:2.6337286765763523s; --delay:-3.2442858542589703s;">
+        </div>
+        <div class="bubble"
+          style="--size:5.84172021507488rem; --distance:8.025462111890265rem; --position:64.22685285696976%; --time:3.406027692623257s; --delay:-2.575985755179337s;">
+        </div>
+        <div class="bubble"
+          style="--size:4.955424441755899rem; --distance:8.259068198564892rem; --position:29.25870563136067%; --time:2.195717280858048s; --delay:-3.799603150163356s;">
+        </div>
+        <div class="bubble"
+          style="--size:3.6599638860825596rem; --distance:8.939983050692934rem; --position:12.25893750692077%; --time:3.821976301452877s; --delay:-3.230315056071466s;">
+        </div>
+        <div class="bubble"
+          style="--size:2.305981829482236rem; --distance:6.534745061470129rem; --position:89.73507788103278%; --time:2.063411465255036s; --delay:-3.149312562747419s;">
+        </div>
+        <div class="bubble"
+          style="--size:4.167000326685379rem; --distance:6.228910965924809rem; --position:87.58707831519578%; --time:3.814410017691247s; --delay:-2.37399722691088s;">
+        </div>
+        <div class="bubble"
+          style="--size:5.045926580334017rem; --distance:6.672756564114621rem; --position:37.2559463990254%; --time:2.4780601155074002s; --delay:-2.9900408106614975s;">
+        </div>
+        <div class="bubble"
+          style="--size:2.2141038444495935rem; --distance:6.312036218020455rem; --position:37.67328068238346%; --time:2.3861199038648375s; --delay:-3.6368290219693673s;">
+        </div>
+        <div class="bubble"
+          style="--size:3.8297665528182536rem; --distance:6.505440482404351rem; --position:62.63263654717193%; --time:2.016383349109437s; --delay:-3.497500688597129s;">
+        </div>
+        <div class="bubble"
+          style="--size:4.79556372642474rem; --distance:7.928307276553659rem; --position:75.15103094965899%; --time:2.461360926668407s; --delay:-3.157746573633914s;">
+        </div>
+        <div class="bubble"
+          style="--size:5.660580287647034rem; --distance:6.35220785623339rem; --position:4.860414344329696%; --time:2.3278658777115795s; --delay:-3.346520322724205s;">
+        </div>
+        <div class="bubble"
+          style="--size:2.349729336426681rem; --distance:8.602743202181646rem; --position:57.42812210254437%; --time:2.492084034858033s; --delay:-2.9857058093142843s;">
+        </div>
+        <div class="bubble"
+          style="--size:3.850702864400252rem; --distance:7.198143133806907rem; --position:60.88132503944388%; --time:2.038416103540821s; --delay:-3.3160822892572286s;">
+        </div>
+        <div class="bubble"
+          style="--size:4.571869865106286rem; --distance:6.756065481455162rem; --position:37.97361416122411%; --time:2.310717213565046s; --delay:-3.375592458833936s;">
+        </div>
+        <div class="bubble"
+          style="--size:4.798395225417111rem; --distance:8.513716526178406rem; --position:38.92232186748388%; --time:3.588449013923462s; --delay:-3.5518988182833855s;">
+        </div>
+        <div class="bubble"
+          style="--size:2.436666052821299rem; --distance:6.354744337284721rem; --position:79.42220884244362%; --time:3.802964735816022s; --delay:-3.758439246252736s;">
+        </div>
+        <div class="bubble"
+          style="--size:2.3663238155554813rem; --distance:7.201013870786523rem; --position:29.04328094086693%; --time:3.6589545828743604s; --delay:-2.7271182001012666s;">
+        </div>
+        <div class="bubble"
+          style="--size:5.949134092693909rem; --distance:8.393707857689037rem; --position:96.66291819835475%; --time:3.8336659959741537s; --delay:-2.944871782197765s;">
+        </div>
+        <div class="bubble"
+          style="--size:3.3625596863019904rem; --distance:9.919989982886623rem; --position:73.54035397185812%; --time:2.8478088683216622s; --delay:-3.4406634291306024s;">
+        </div>
+        <div class="bubble"
+          style="--size:3.2246702211140787rem; --distance:7.732885645474818rem; --position:6.582433595233804%; --time:3.585186182478881s; --delay:-2.241707756081562s;">
+        </div>
+        <div class="bubble"
+          style="--size:2.2708710530041394rem; --distance:6.166493902000348rem; --position:46.5601320776512%; --time:3.989438895123632s; --delay:-3.0546794083366153s;">
+        </div>
+        <div class="bubble"
+          style="--size:4.744571134429029rem; --distance:7.962809243749223rem; --position:32.04622110646506%; --time:2.483994504765182s; --delay:-2.211263761675499s;">
+        </div>
+        <div class="bubble"
+          style="--size:2.727503315474724rem; --distance:7.144247287408483rem; --position:98.27980700404612%; --time:3.7818771278969603s; --delay:-3.755143155228245s;">
+        </div>
+        <div class="bubble"
+          style="--size:4.010184534089269rem; --distance:6.508845926484476rem; --position:103.26410286784002%; --time:2.7819046372905056s; --delay:-2.623161509761154s;">
+        </div>
+        <div class="bubble"
+          style="--size:5.004950485248541rem; --distance:8.237538338881038rem; --position:0.3819416967384548%; --time:2.0713402131379763s; --delay:-2.6981559665690322s;">
+        </div>
+        <div class="bubble"
+          style="--size:2.4093376590044233rem; --distance:6.3176814750440595rem; --position:27.351047959675334%; --time:2.504834442867086s; --delay:-3.7817630616647557s;">
+        </div>
+        <div class="bubble"
+          style="--size:5.060426904477916rem; --distance:9.978443550528182rem; --position:76.26401247501815%; --time:2.8365657707544334s; --delay:-3.4970172434882527s;">
+        </div>
+        <div class="bubble"
+          style="--size:3.2857258445868602rem; --distance:8.505373145565777rem; --position:83.00921642406611%; --time:2.3224752599368528s; --delay:-3.4520707989925445s;">
+        </div>
+        <div class="bubble"
+          style="--size:4.625282393064541rem; --distance:8.729788659933758rem; --position:67.94360582669557%; --time:2.50274712515473s; --delay:-3.291364169885349s;">
+        </div>
+      </div>
+      <div class="content text-center" style="display:flex;
+      flex-flow: column-reverse;
+      justify-content:space-between;
+      align-items:center;
+      align-content:stretch;">
+        <!-- <ul class="ftco-footer-social list-unstyled mt-2">
+          <li><a href="https://www.linkedin.com/in/sai-vaishnavi-swaminathan" target="_blank"><span
+                class="fa fa-linkedin"></span></a></li>
+          <li><a href="https://github.com/saivaish96" target="_blank"><span class="fa fa-github"></span></a></li>
+          <li><a href="https://www.instagram.com/coder_with_empathy/" target="_blank"><span
+                class="fa fa-instagram"></span></a></li>
+          <li><a href="https://www.behance.net/saivaiswamina" target="_blank"><span
+                class="fa fa-behance"></span></a></li>
+          <li><a href="https://dribbble.com/insanishan" target="_blank"><span class="fa fa-dribbble"></span></a>
+          </li>
+        </ul> -->
+
+        <ul class="ftco-footer-social list-unstyled mt-2">
+          <li><a href="https://www.linkedin.com/in/sai-vaishnavi-swaminathan" target="_blank"><span
+                class="fa fa-linkedin"></span></a></li>
+          <li><a href="https://github.com/saivaish96" target="_blank"><span class="fa fa-github"></span></a></li>
+          <li><a href="https://www.instagram.com/coder_with_empathy/" target="_blank"><span
+                class="fa fa-instagram"></span></a></li>
+          <li><a href="https://www.behance.net/saivaiswamina" target="_blank"><span class="fa fa-behance"></span></a>
+          </li>
+          <li><a href="https://dribbble.com/insanishan" target="_blank"><span class="fa fa-dribbble"></span></a>
+          </li>
+          <br>
+          <p class="mb-0" style="font-size: 14px;">Copyright &copy;
+            <script>document.write(new Date().getFullYear());</script> All rights reserved | By Sai
+            Vaishnavi</a>
+          </p>
+        </ul>
+
+        <!-- <p class="mb-0" style="font-size: 14px;">Copyright &copy;
+          <script>document.write(new Date().getFullYear());</script> All rights reserved | By Sai
+          Vaishnavi</a>
+      </p> -->
+
+
+
+      </div>
+    </div>
+    <svg style="position:fixed; top:100vh">
+      <defs>
+        <filter id="blob">
+          <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"></feGaussianBlur>
+          <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="blob">
+          </feColorMatrix>
+          <!--feComposite(in="SourceGraphic" in2="blob" operator="atop") //After reviewing this after years I can't remember why I added this but it isn't necessary for the blob effect-->
+        </filter>
+      </defs>
+    </svg>
+  </footer>
+
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+      <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+      <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+        stroke="#ff6961" />
+    </svg></div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.0.5/gsap.min.js"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <!-- <script src="js/tiny-slider.js"></script> -->
+  <script src="js/glightbox.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/rellax.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
